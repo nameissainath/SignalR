@@ -1,0 +1,4 @@
+﻿1.Right Click on Project → Add → Client-Side Library.
+3. Select Provier = "unpkg", Library = "@aspnet/signalr@" → Select the latest version.(Select version like 1.2, based on latest)
+4. Select Choose specific files, expand dist/browser and select signalr.js and signalr.min.js
+

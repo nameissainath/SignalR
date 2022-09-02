@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+ <div>
+ Enter your Name:<input type="text" id="fromUserName" />
+ <input type="button" id="registerButton" value="Register" />
+ <hr />
+ Your Message:<input type="text" id="messageInput" /><br />
+ To User: <select id="lstUsers"></select><br />
+ <input type="button" id="sendButton" value="Send Message" />
+ </div>
+ <div><hr /></div>
+ <div>
+ <ul id="messagesList"></ul>
+ </div>
+</div>
+<script src="~/lib/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/Onetotonechat.js"></script>
+
